@@ -15,4 +15,4 @@ function LinearSearch(array, value) {
 	return results
 }
 
-module.exports = { LinearSearch, }
+module.exports = LinearSearch

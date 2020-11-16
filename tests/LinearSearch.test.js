@@ -5,14 +5,14 @@ describe("Linear Search Test", () => {
 
 	describe("Linear Search Test with just one occurrence", () => {
 		it("should return 1 with Linear Search", () => {
-			expect(linear.LinearSearch(array, "toto")).toEqual([1]);
+			expect(linear(array, "toto")).toEqual([1]);
 		});
 	});
 
 	describe("Linear Search Test with just one occurrence", () => {
 		it("should return 1 and 3 with Linear Search", () => {
 			array.push("toto")
-			expect(linear.LinearSearch(array, "toto")).toEqual([1,3]);
+			expect(linear(array, "toto")).toEqual([1,3]);
 		});
 	});
 });
